@@ -1,0 +1,18 @@
+{
+    "packages" :[ 
+        "apt",
+        "ec-ufw",
+        "ec-puppet-config",
+        "ec-apt-repos",
+        "ec-resolv",
+        "ec-ypclient",
+        "ec-autofs",
+        "ec-umap",
+        "ec-proxy",
+        "ec-mysql"
+    ],
+
+    "domain" : "ir.intel.com",
+    "proxy::host" : "cache",
+    "proxy::port" : "911"
+}

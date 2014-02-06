@@ -1,0 +1,14 @@
+:cachedir: '/var/cache/r10k'
+:sources:
+ :production:
+  remote: 'https://github.intel.com/EC/OC-Production.git'
+  basedir: '/etc/puppet/environments/'
+  prefix: true
+ :testing:
+  remote: 'https://github.intel.com/EC/OC-Testing.git'
+  basedir: '/etc/puppet/environments/'
+  prefix: true
+ :development:
+  remote: 'https://github.intel.com/EC/OC-Development.git'
+  basedir: '/etc/puppet/environments/'
+  prefix: true

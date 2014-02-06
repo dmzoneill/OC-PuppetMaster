@@ -1,0 +1,9 @@
+auto lo
+auto eth0
+iface eth0 inet static
+address 10.237.216.9
+broadcast 10.237.216.255
+netmask 255.255.255.0
+gateway 10.237.216.1
+dns-search ir.intel.com
+dns-nameservers 10.248.2.1

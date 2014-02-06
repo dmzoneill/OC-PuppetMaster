@@ -1,0 +1,9 @@
+---
+:backends:
+  - json
+:json:
+  :datadir: "/etc/puppet/"
+:hierarchy:
+  - "hiera/common"
+  - "environments/%{::environment}/hiera/node/%{::fqdn}"
+  - "environments/%{::environment}/hiera/common"
