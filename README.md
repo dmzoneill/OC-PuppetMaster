@@ -1,5 +1,9 @@
 # OC-PuppetMaster
 
+<p align="center">
+  <img src=".github/logo.png" alt="OC-PuppetMaster logo" width="128" />
+</p>
+
 Setup script and configuration for a Puppet master server on Ubuntu.
 
 ## What it does
